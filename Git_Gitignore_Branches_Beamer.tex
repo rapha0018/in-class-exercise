@@ -89,6 +89,10 @@ Weil \texttt{*.pdf} in \texttt{.gitignore} steht, gehört die PDF \textbf{nicht}
 
 \vspace{0.5em}
 Die PDF kann noch vom \textbf{vorherigen Branch} stammen (letzter Compile dort) oder einfach veraltet sein.
+
+\vspace{0.4em}
+\small\textbf{Schrödingers PDF (fachlich korrekt):}\\
+Solange Sie nicht neu kompilieren, zeigt \texttt{paper.pdf} den \textbf{letzten Build} — nicht den aktuellen Branch. Git weiß davon nichts; erst \texttt{pdflatex} „kollabiert“ den Zustand auf eine Version.
 \end{frame}
 
 \begin{frame}{Was passiert beim Branch-Wechsel? (Schema)}
